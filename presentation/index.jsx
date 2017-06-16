@@ -52,6 +52,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Tags.Deck transition={ defaultTransition } transitionDuration={ 500 } progress='bar' theme={ theme } controls>
+        { require('./01-splash.jsx').default }
       </Tags.Deck>
     );
   }
