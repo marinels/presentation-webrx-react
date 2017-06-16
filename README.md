@@ -2,6 +2,8 @@
 
 monadic development for the web using `RxJS` and `react`
 
+[View the presentation online](https://marinels.github.io/presentation-webrx-react/)
+
 ## Slide Outline
 
 1. Splash
