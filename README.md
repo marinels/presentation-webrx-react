@@ -1,6 +1,6 @@
 # `webrx-react`
 
-monadic development for the web using `RxJS` and `react`
+monadic development for the web using `RxJS` and `React`
 
 [View the presentation online](https://marinels.github.io/presentation-webrx-react/)
 

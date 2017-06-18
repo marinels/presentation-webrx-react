@@ -1,7 +1,7 @@
 {
   "name": "presentation-webrx-react",
   "version": "0.1.0",
-  "description": "ReactJS Powered Presentation Framework",
+  "description": "webrx-react: monadic development for the web using RxJS and React",
   "scripts": {
     "clean": "rimraf docs",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
