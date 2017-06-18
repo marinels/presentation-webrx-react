@@ -34,7 +34,7 @@ module.exports = {
       loader: 'raw-loader'
     }, {
       test: /\.tsx?$/,
-      loader: 'awesome-typescript-loader',
+      loader: [ 'react-hot-loader', 'awesome-typescript-loader' ],
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?sourceMap',
