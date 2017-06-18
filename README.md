@@ -1,11 +1,14 @@
 # `webrx-react`
 
-monadic development for the web using `RxJS` and `react`
+monadic development for the web using `RxJS` and `React`
+
+[View the presentation online](https://marinels.github.io/presentation-webrx-react/)
 
 ## Slide Outline
 
 1. Splash
 1. Who Am I?
+1. What is `webrx-react` all about?
 1. Monadic Programming
 1. RxJS and the Functional Programming Patterns
 1. Inspiration from WPF and RxUI

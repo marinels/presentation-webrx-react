@@ -1,6 +1,14 @@
 img.profile {
   background-color: white;
   border: initial;
+  border-radius: 50%;
   padding: 0.25rem;
   max-width: 320px;
+}
+a {
+  color: #337ab7;
+}
+a:hover,
+a:focus {
+  color: #23527c;
 }
