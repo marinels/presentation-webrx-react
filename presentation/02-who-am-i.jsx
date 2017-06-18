@@ -9,7 +9,10 @@ export default (
     <Tags.Heading size={ 4 }>Pat Sissons</Tags.Heading>
     <Tags.Heading size={ 4 }>Senior Software Developer</Tags.Heading>
     <Tags.Heading size={ 4 }>@ Marine Learning Systems</Tags.Heading>
-    <Tags.Image className='img-circle img-responsive img-center profile' src={ images.logo } />
+    <span>
+      <Tags.Image className='img-circle img-center profile' height={ 144 } src={ images.me } />
+      <Tags.Image className='img-circle img-center profile' height={ 144 } src={ images.logo } />
+    </span>
     <br />
     <Tags.Heading size={ 5 }>
       <Tags.Link href='https://github.com/marinels'><i className='fa fa-github' />/marinels</Tags.Link>
