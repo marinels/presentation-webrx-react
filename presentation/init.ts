@@ -1,4 +1,6 @@
-/// <reference path="./augmentations.d.ts" />
+/// <reference path="./declarations.d.ts" />
+
+import './augmentations';
 
 import { React, Tags, Images } from './slide';
 

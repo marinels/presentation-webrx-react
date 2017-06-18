@@ -8,4 +8,4 @@ const Images = {
 
 preloader(Images);
 
-export default Images;
+export { Images };

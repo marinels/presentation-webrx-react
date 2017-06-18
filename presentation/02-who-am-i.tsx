@@ -1,15 +1,16 @@
 import { React, Tags, Images } from './slide';
+import { Image } from 'spectacle';
 
-const renderGitHubLink = (image, name) => {
+function renderGitHubLink(image: any, name: string) {
   return (
     <div style={ ({ display: 'table-row' }) }>
       <Tags.Image className='img-circle profile' display='table-cell' margin='1rem' height={ 144 } src={ image } />
-      <Tags.Heading size={ 4 } textAlign='left' margin='1rem' lineHeight='144px' style={ ({ display: 'table-cell', verticalAlign: 'middle' }) }>
+      <Tags.Heading size={ 4 } textAlign='left' margin='1rem' style={ ({ display: 'table-cell', verticalAlign: 'middle', lineHeight: '144px' }) }>
         <Tags.Link href={ `https://github.com/${ name }` }><i className='fa fa-github' />{ `/${ name }` }</Tags.Link>
       </Tags.Heading>
     </div>
   );
-};
+}
 
 export default (
   <Tags.Slide>

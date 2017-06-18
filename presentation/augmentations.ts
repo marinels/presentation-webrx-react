@@ -1,7 +1,20 @@
 // below are some type augmentations to captuer components not definied
 // in the included spectacle type definitions
+import * as React from 'react';
+import * as Tags from 'spectacle';
+
+interface HeadingPropsPatch extends Tags.HeadingProps {
+  lineHeight?: any;
+}
 
 declare module 'spectacle' {
+  interface BaseProps extends React.HTMLAttributes<any> {
+  }
+
+  interface DeckProps {
+    theme?: any;
+  }
+
   export interface NotesProps {
   }
 

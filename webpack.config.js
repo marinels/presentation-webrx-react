@@ -8,7 +8,6 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
-    'babel-polyfill',
     './index',
   ],
   output: {
@@ -24,34 +23,15 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
+    extensions: [ '.ts', '.tsx', '.webpack.js', '.web.js', '.js' ],
   },
   module: {
     loaders: [{
       test: /\.md$/,
       loader: 'raw-loader'
     }, {
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loader: 'babel-loader',
-      query: {
-        plugins: [
-          [
-            'react-transform', {
-              transforms: [{
-                transform: 'react-transform-hmr',
-                imports: ['react'],
-                locals: ['module']
-              }, {
-                transform: 'react-transform-catch-errors',
-                imports: ['react', 'redbox-react']
-              }]
-            }
-          ]
-        ]
-      },
-      exclude: /node_modules/,
-      include: __dirname
+      test: /\.tsx?$/,
+      loader: 'awesome-typescript-loader',
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?sourceMap',
