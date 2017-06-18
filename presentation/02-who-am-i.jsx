@@ -1,6 +1,4 @@
-import React from 'react';
-import * as Tags from 'spectacle';
-import images from './images';
+import { React, Tags, Images } from './slide';
 
 export default (
   <Tags.Slide>

@@ -1,5 +1,4 @@
-import React from 'react';
-import * as Tags from 'spectacle';
+import { React, Tags } from './slide';
 
 export default (
   <Tags.Slide bgColor='primary'>

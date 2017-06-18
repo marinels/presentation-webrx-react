@@ -1,11 +1,11 @@
 // Import image preloader util
 import preloader from 'spectacle/lib/utils/preloader';
 
-const images = {
+const Images = {
   me: require('../assets/me.png'),
   logo: require('../assets/logo.png')
 };
 
-preloader(images);
+preloader(Images);
 
-export default images;
+export default Images;
