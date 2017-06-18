@@ -36,10 +36,7 @@ module.exports = {
       test: /\.css$/,
       loader: 'style-loader!css-loader?sourceMap',
     }, {
-      test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url-loader?name=[name].[ext]&mimetype=application/font-woff'
-    }, {
-      test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+      test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=application/font-woff'
     }, {
       test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
