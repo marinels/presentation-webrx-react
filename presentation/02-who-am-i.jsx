@@ -5,7 +5,6 @@ import images from './images';
 export default (
   <Tags.Slide>
     <Tags.Heading>Who Am I?</Tags.Heading>
-    <br />
     <Tags.Heading size={ 4 }>Pat Sissons</Tags.Heading>
     <Tags.Heading size={ 4 }>Senior Software Developer</Tags.Heading>
     <Tags.Heading size={ 4 }>@ Marine Learning Systems</Tags.Heading>
