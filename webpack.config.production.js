@@ -2,11 +2,11 @@
 
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
     'babel-polyfill',
-    './index.html',
     './index'
   ],
   output: {
@@ -23,7 +23,12 @@ module.exports = {
       compressor: {
         warnings: false
       }
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: './presentation/index.ejs',
+      filename: 'index.html',
+      hash: true,
+    }),
   ],
   resolve: {
     extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
@@ -41,9 +46,6 @@ module.exports = {
       loader: 'style-loader!css-loader'
     }, {
       test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'file-loader?name=[name].[ext]'
-    }, {
-      test: /index\.html$/,
       loader: 'file-loader?name=[name].[ext]'
     }, {
       test: /\.(png|jpg|gif)$/,

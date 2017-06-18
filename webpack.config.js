@@ -2,13 +2,13 @@
 
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
     'babel-polyfill',
-    './index.html',
     './index',
   ],
   output: {
@@ -17,7 +17,11 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new HtmlWebpackPlugin({
+      template: './presentation/index.ejs',
+      filename: 'index.html',
+    }),
   ],
   resolve: {
     extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
@@ -66,9 +70,6 @@ module.exports = {
     }, {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=image/svg+xml'
-    }, {
-      test: /index\.html$/,
-      loader: 'file-loader?name=[name].[ext]'
     }, {
       test: /\.png$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=image/png',
