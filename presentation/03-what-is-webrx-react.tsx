@@ -9,7 +9,9 @@ export default (
       <Tags.Link href='https://www.typescriptlang.org/'>TypeScript</Tags.Link>
       { ' that aims to reduce boilerplate code by taking advantage of ' }
       <Tags.Link href='http://reactivex.io/rxjs/'>monadic state mutations</Tags.Link>
-      { ' to drive efficient React component page renderings.' }
+      { ' to drive efficient ' }
+      <Tags.Link href='https://facebook.github.io/react/'>React</Tags.Link>
+      {' component page renderings.' }
     </Tags.Text>
   </Tags.Slide>
 );
