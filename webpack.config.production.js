@@ -12,6 +12,9 @@ module.exports = {
     path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
   },
+  externals: {
+    'component-playground': 'var null',
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
