@@ -13,7 +13,6 @@ import 'prismjs/components/prism-jsx';
 require('normalize.css');
 require('spectacle/lib/themes/default/index.css');
 require('prismjs/themes/prism-tomorrow.css');
-require('bootstrap/dist/css/bootstrap.css');
 require('font-awesome/css/font-awesome.css');
 require('./style.css');
 
