@@ -6,7 +6,6 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    'babel-polyfill',
     './index'
   ],
   output: {
@@ -31,16 +30,16 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
+    extensions: [ '.ts', '.tsx', '.webpack.js', '.web.js', '.js' ],
   },
   module: {
     loaders: [{
       test: /\.md$/,
       loader: 'raw-loader'
     }, {
-      test: /\.jsx?$/,
+      test: /\.tsx?$/,
       exclude: /node_modules/,
-      loader: 'babel-loader'
+      loader: 'awesome-typescript-loader?silent'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader'
