@@ -3,9 +3,9 @@ import preloader from 'spectacle/lib/utils/preloader';
 
 const Images = {
   me: require('../assets/me.png'),
-  logo: require('../assets/logo.png')
+  logo: require('../assets/logo.png'),
 };
 
 preloader(Images);
 
-export default Images;
+export { Images };

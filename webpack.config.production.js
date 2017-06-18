@@ -2,16 +2,18 @@
 
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    'babel-polyfill',
-    './index.html',
     './index'
   ],
   output: {
     path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
+  },
+  externals: {
+    'component-playground': 'var null',
   },
   plugins: [
     new webpack.DefinePlugin({
@@ -20,30 +22,33 @@ module.exports = {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
+      comments: false,
       compressor: {
-        warnings: false
+        warnings: false,
       }
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: './presentation/index.ejs',
+      filename: 'index.html',
+      hash: true,
+    }),
   ],
   resolve: {
-    extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
+    extensions: [ '.ts', '.tsx', '.webpack.js', '.web.js', '.js' ],
   },
   module: {
     loaders: [{
       test: /\.md$/,
       loader: 'raw-loader'
     }, {
-      test: /\.jsx?$/,
+      test: /\.tsx?$/,
       exclude: /node_modules/,
-      loader: 'babel-loader'
+      loader: 'awesome-typescript-loader?silent'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader'
     }, {
       test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'file-loader?name=[name].[ext]'
-    }, {
-      test: /index\.html$/,
       loader: 'file-loader?name=[name].[ext]'
     }, {
       test: /\.(png|jpg|gif)$/,

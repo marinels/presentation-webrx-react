@@ -2,60 +2,44 @@
 
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  devtool: 'source-map',
+  devtool: 'eval',
   entry: [
     'webpack-hot-middleware/client',
-    'babel-polyfill',
-    './index.html',
     './index',
   ],
   output: {
     path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
   },
+  externals: {
+    'component-playground': 'var null',
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
+    new webpack.NoEmitOnErrorsPlugin(),
+    new HtmlWebpackPlugin({
+      template: './presentation/index.ejs',
+      filename: 'index.html',
+    }),
   ],
   resolve: {
-    extensions: [ '.jsx', '.webpack.js', '.web.js', '.js' ],
+    extensions: [ '.ts', '.tsx', '.webpack.js', '.web.js', '.js' ],
   },
   module: {
     loaders: [{
       test: /\.md$/,
       loader: 'raw-loader'
     }, {
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loader: 'babel-loader',
-      query: {
-        plugins: [
-          [
-            'react-transform', {
-              transforms: [{
-                transform: 'react-transform-hmr',
-                imports: ['react'],
-                locals: ['module']
-              }, {
-                transform: 'react-transform-catch-errors',
-                imports: ['react', 'redbox-react']
-              }]
-            }
-          ]
-        ]
-      },
-      exclude: /node_modules/,
-      include: __dirname
+      test: /\.tsx?$/,
+      loader: [ 'react-hot-loader', 'awesome-typescript-loader' ],
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?sourceMap',
     }, {
-      test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url-loader?name=[name].[ext]&mimetype=application/font-woff'
-    }, {
-      test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+      test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=application/font-woff'
     }, {
       test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
@@ -66,9 +50,6 @@ module.exports = {
     }, {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=image/svg+xml'
-    }, {
-      test: /index\.html$/,
-      loader: 'file-loader?name=[name].[ext]'
     }, {
       test: /\.png$/,
       loader: 'url-loader?name=[name].[ext]&mimetype=image/png',
