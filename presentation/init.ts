@@ -2,7 +2,7 @@
 
 import './augmentations';
 
-import { React, Tags, Images } from './slide';
+export * from './slide';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
@@ -50,4 +50,4 @@ Theme.screen.components.code.display = 'inline-block';
 Theme.screen.components.codePane.pre.fontSize = Theme.screen.components.code.fontSize;
 Theme.screen.components.codePane.pre.padding = '10px';
 
-export { React, Tags, Images, Theme };
+export { Theme };

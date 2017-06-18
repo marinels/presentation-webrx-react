@@ -1,6 +1,6 @@
-import { React, Tags } from './slide';
+import { React, Tags, createSlide } from './slide';
 
-export default (
+export const splash = createSlide(
   <Tags.Slide>
     <Tags.Heading size={ 1 } lineHeight={ 1 } textFont='tertiary'>
       webrx-react

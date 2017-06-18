@@ -1,16 +1,23 @@
-import { React, Tags, Theme } from './init';
-import slide01 from './01-splash';
-import slide02 from './02-who-am-i';
-import slide03 from './03-what-is-webrx-react';
+import { React, Tags, Theme, OrderedSlide } from './init';
+import * as slides from '../slides';
 
 export class Presentation extends React.Component<{}, {}> {
   render() {
     return (
       <Tags.Deck transition={ [ 'fade', 'spin' ] } transitionDuration={ 500 } progress='bar' theme={ Theme } controls>
-        { slide01 }
-        { slide02 }
-        { slide03 }
+        { this.renderSlides() }
       </Tags.Deck>
     );
+  }
+
+  private renderSlides() {
+    return Object
+      .keys(slides)
+      .map(x => {
+        const os: OrderedSlide = (slides as any)[x];
+        return { name: x, order: os.order, slide: os.slide };
+      })
+      .sort((a, b) => a.order - b.order)
+      .map(x => React.cloneElement(x.slide, { key: x.name }));
   }
 }

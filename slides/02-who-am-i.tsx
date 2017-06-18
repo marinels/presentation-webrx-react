@@ -1,4 +1,4 @@
-import { React, Tags, Images } from './slide';
+import { React, Tags, Images, createSlide } from './slide';
 import { Image } from 'spectacle';
 
 function renderGitHubLink(image: any, name: string) {
@@ -12,7 +12,7 @@ function renderGitHubLink(image: any, name: string) {
   );
 }
 
-export default (
+export const who_am_i = createSlide(
   <Tags.Slide>
     <Tags.Heading>Who Am I?</Tags.Heading>
     <Tags.Heading size={ 4 }>Pat Sissons</Tags.Heading>
