@@ -1,6 +1,6 @@
 import { React, Tags, Images } from './slide';
 
-function renderGitHubLink(image, name) {
+const renderGitHubLink = (image, name) => {
   return (
     <Tags.Text style={ ({ display: 'table-row' }) }>
       <Tags.Image className='img-circle profile' display='table-cell' margin='1rem' height={ 144 } src={ image } />
@@ -9,7 +9,7 @@ function renderGitHubLink(image, name) {
       </Tags.Heading>
     </Tags.Text>
   );
-}
+};
 
 export default (
   <Tags.Slide>
