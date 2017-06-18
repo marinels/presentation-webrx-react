@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "webrx-react: monadic development for the web using RxJS and React",
   "scripts": {
-    "clean": "rimraf docs",
+    "clean": "rimraf docs stats.json",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "stats": "cross-env NODE_ENV=production webpack --profile --json --config webpack.config.production.js > stats.json",
     "lint": "eslint --ext .js,.jsx .",
