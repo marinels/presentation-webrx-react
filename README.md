@@ -8,6 +8,7 @@ monadic development for the web using `RxJS` and `react`
 
 1. Splash
 1. Who Am I?
+1. What is `webrx-react` all about?
 1. Monadic Programming
 1. RxJS and the Functional Programming Patterns
 1. Inspiration from WPF and RxUI

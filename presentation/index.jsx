@@ -6,6 +6,7 @@ export default class Presentation extends React.Component {
       <Tags.Deck transition={ [ 'fade', 'spin' ] } transitionDuration={ 500 } progress='bar' theme={ Theme } controls>
         { require('./01-splash').default }
         { require('./02-who-am-i').default }
+        { require('./03-what-is-webrx-react').default }
       </Tags.Deck>
     );
   }
