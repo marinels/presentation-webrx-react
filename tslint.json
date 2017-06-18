@@ -1,0 +1,16 @@
+{
+  "extends": "tslint-config-unional/strict",
+  "rules": {
+    // standardize on a linebreak
+    "linebreak-style": [ true, "LF" ],
+
+    // we always want a comma on multiline expressions to prevent delta creep
+    "trailing-comma": [ true, { "singleline": "never", "multiline": "always" } ],
+
+    // this rule allows us to have implicit types (variables, params, functions, etc...)
+    "typedef": [ false ],
+
+    // allow pascal case (for class imports) and ban any keywords
+    "variable-name": [ true, "check-format", "allow-pascal-case", "ban-keywords" ]
+  }
+}

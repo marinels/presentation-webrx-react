@@ -67,6 +67,8 @@
     "redbox-react": "^1.2.0",
     "rimraf": "^2.4.4",
     "style-loader": "^0.13.0",
+    "tslint": "^5.4.3",
+    "tslint-config-unional": "^0.8.0",
     "typescript": "^2.3.4",
     "url-loader": "^0.5.6",
     "webpack": "^2.2.0",
