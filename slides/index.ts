@@ -1,7 +1,7 @@
 // export slides from here in the order they should appear
 // e.g.,
-// export * from './some-slide';
+// export * from './slide-myslide';
 
-export * from './01-splash';
-export * from './02-who-am-i';
-export * from './03-what-is-webrx-react';
+export * from './slide-splash';
+export * from './slide-who-am-i';
+export * from './slide-what-is-webrx-react';
