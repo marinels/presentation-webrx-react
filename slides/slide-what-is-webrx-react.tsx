@@ -1,6 +1,6 @@
 import { React, Tags, createSlide } from './slide';
 
-export const whatIsWebrxReact = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading textFont='tertiary'>webrx-react?</Tags.Heading>
     <Tags.Text>

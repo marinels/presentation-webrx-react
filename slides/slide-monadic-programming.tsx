@@ -1,6 +1,6 @@
 import { React, Tags, createSlide } from './slide';
 
-export const monadicProgramming = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading size={ 4 }>
       What is Monadic Programming?

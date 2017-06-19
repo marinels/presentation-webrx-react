@@ -12,7 +12,7 @@ function renderGitHubLink(image: any, name: string) {
   );
 }
 
-export const whoAmI = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading>Who Am I?</Tags.Heading>
     <Tags.Heading size={ 4 }>Pat Sissons</Tags.Heading>

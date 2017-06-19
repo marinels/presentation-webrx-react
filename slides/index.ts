@@ -2,9 +2,9 @@
 // e.g.,
 // export * from './slide-myslide';
 
-export * from './slide-splash';
-export * from './slide-who-am-i';
-export * from './slide-what-is-webrx-react';
-export * from './slide-monadic-programming';
-export * from './slide-rxjs';
-export * from './slide-rxjs-demo';
+import './slide-splash';
+import './slide-who-am-i';
+import './slide-what-is-webrx-react';
+import './slide-monadic-programming';
+import './slide-rxjs';
+import './slide-rxjs-demo';

@@ -20,7 +20,7 @@ Rx.Observable
   })
 `.trim();
 
-export const rxjsDemo = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading size={ 4 }>
       <Tags.Link href='https://codepen.io/patsissons/pen/YQZPEM'>RxJS Demo</Tags.Link>

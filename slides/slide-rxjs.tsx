@@ -1,6 +1,6 @@
 import { React, Tags, createSlide } from './slide';
 
-export const rxjs = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading size={ 4 } textFont='tertiary'>
       RxJS

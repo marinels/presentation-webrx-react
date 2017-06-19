@@ -1,6 +1,6 @@
 import { React, Tags, createSlide } from './slide';
 
-export const splash = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading size={ 1 } textFont='tertiary'>
       webrx-react
