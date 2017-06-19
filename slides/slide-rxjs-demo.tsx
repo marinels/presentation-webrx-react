@@ -25,7 +25,7 @@ createSlide(
     <Tags.Heading size={ 4 }>
       <Tags.Link href='https://codepen.io/patsissons/pen/YQZPEM'>RxJS Demo</Tags.Link>
     </Tags.Heading>
-    <br />
+    <Tags.Text textSize='14px'>(Click the title for a live demo)</Tags.Text>
     <Tags.CodePane lang='js' source={ source } textSize='1.5rem' style={ ({ lineHeight: 'normal' }) } />
   </Tags.Slide>,
 );
