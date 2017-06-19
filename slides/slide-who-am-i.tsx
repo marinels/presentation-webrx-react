@@ -12,7 +12,7 @@ function renderGitHubLink(image: any, name: string) {
   );
 }
 
-export const who_am_i = createSlide(
+export const whoAmI = createSlide(
   <Tags.Slide>
     <Tags.Heading>Who Am I?</Tags.Heading>
     <Tags.Heading size={ 4 }>Pat Sissons</Tags.Heading>
@@ -22,5 +22,5 @@ export const who_am_i = createSlide(
       { renderGitHubLink(Images.me, 'patsissons') }
       { renderGitHubLink(Images.logo, 'marinels') }
     </div>
-  </Tags.Slide>
+  </Tags.Slide>,
 );

@@ -13,5 +13,5 @@ export const splash = createSlide(
       { ' and ' }
       <Tags.Code bgColor='transparent'>React</Tags.Code>
     </Tags.Text>
-  </Tags.Slide>
+  </Tags.Slide>,
 );
