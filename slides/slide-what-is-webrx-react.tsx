@@ -1,6 +1,6 @@
 import { React, Tags, createSlide } from './slide';
 
-export const what_is_webrx_react = createSlide(
+createSlide(
   <Tags.Slide>
     <Tags.Heading textFont='tertiary'>webrx-react?</Tags.Heading>
     <Tags.Text>
@@ -13,5 +13,5 @@ export const what_is_webrx_react = createSlide(
       <Tags.Link href='https://facebook.github.io/react/'>React</Tags.Link>
       {' component page renderings.' }
     </Tags.Text>
-  </Tags.Slide>
+  </Tags.Slide>,
 );

@@ -1,8 +1,8 @@
 import { React, Tags, createSlide } from './slide';
 
-export const splash = createSlide(
+createSlide(
   <Tags.Slide>
-    <Tags.Heading size={ 1 } lineHeight={ 1 } textFont='tertiary'>
+    <Tags.Heading size={ 1 } textFont='tertiary'>
       webrx-react
     </Tags.Heading>
     <Tags.Text>
@@ -13,5 +13,5 @@ export const splash = createSlide(
       { ' and ' }
       <Tags.Code bgColor='transparent'>React</Tags.Code>
     </Tags.Text>
-  </Tags.Slide>
+  </Tags.Slide>,
 );
