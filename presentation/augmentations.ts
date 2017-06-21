@@ -15,6 +15,11 @@ declare module 'spectacle' {
     theme?: any;
   }
 
+  interface SlideProps {
+    maxHeight?: number | string;
+    maxWidth?: number | string;
+  }
+
   export interface NotesProps {
   }
 
