@@ -1,6 +1,6 @@
-import { React, Tags, createSlide } from './slide';
+import { React, Tags } from './slide';
 
-createSlide(
+export = (
   <Tags.Slide>
     <Tags.Heading size={ 1 } textFont='tertiary'>
       webrx-react
@@ -13,5 +13,5 @@ createSlide(
       { ' and ' }
       <Tags.Code bgColor='transparent'>React</Tags.Code>
     </Tags.Text>
-  </Tags.Slide>,
+  </Tags.Slide>
 );

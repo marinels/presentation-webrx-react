@@ -1,6 +1,6 @@
-import { React, Tags, createSlide } from './slide';
+import { React, Tags } from './slide';
 
-createSlide(
+export = (
   <Tags.Slide>
     <Tags.Heading size={ 4 } textFont='tertiary'>
       RxJS
@@ -10,5 +10,5 @@ createSlide(
     <Tags.Text>Asynchronous event management</Tags.Text>
     <Tags.Text>Large library of operations</Tags.Text>
     <Tags.Text>Ported to many languages</Tags.Text>
-  </Tags.Slide>,
+  </Tags.Slide>
 );

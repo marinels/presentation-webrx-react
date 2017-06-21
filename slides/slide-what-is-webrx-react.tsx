@@ -1,6 +1,6 @@
-import { React, Tags, createSlide } from './slide';
+import { React, Tags } from './slide';
 
-createSlide(
+export = (
   <Tags.Slide>
     <Tags.Heading textFont='tertiary'>webrx-react?</Tags.Heading>
     <Tags.Text>
@@ -13,5 +13,5 @@ createSlide(
       <Tags.Link href='https://facebook.github.io/react/'>React</Tags.Link>
       {' component page renderings.' }
     </Tags.Text>
-  </Tags.Slide>,
+  </Tags.Slide>
 );

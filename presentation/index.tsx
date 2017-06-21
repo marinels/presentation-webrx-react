@@ -1,5 +1,6 @@
-import { React, Tags, Theme, slides } from './init';
-import '../slides';
+import { React, Tags, Theme } from './init';
+
+import slides from '../slides';
 
 export class Presentation extends React.Component<{}, {}> {
   render() {

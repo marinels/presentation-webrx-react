@@ -1,4 +1,4 @@
-import { React, Tags, createSlide } from './slide';
+import { React, Tags } from './slide';
 
 const source = `
 const container = document.getElementById('container');
@@ -20,12 +20,12 @@ Rx.Observable
   })
 `.trim();
 
-createSlide(
+export = (
   <Tags.Slide>
     <Tags.Heading size={ 4 }>
       <Tags.Link href='https://codepen.io/patsissons/pen/YQZPEM'>RxJS Demo</Tags.Link>
     </Tags.Heading>
     <Tags.Text textSize='14px'>(Click the title for a live demo)</Tags.Text>
     <Tags.CodePane lang='js' source={ source } textSize='1.5rem' style={ ({ lineHeight: 'normal' }) } />
-  </Tags.Slide>,
+  </Tags.Slide>
 );
