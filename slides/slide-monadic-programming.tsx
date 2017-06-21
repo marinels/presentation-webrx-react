@@ -8,9 +8,9 @@ export = (
     <br />
     <Tags.Appear>
       <div>
-        <Tags.Text>State encapsulation</Tags.Text>
-        <Tags.Text>Functional mutations</Tags.Text>
-        <Tags.Text>Chainable operations</Tags.Text>
+        <Tags.Text>State Encapsulation</Tags.Text>
+        <Tags.Text>Functional Mutations</Tags.Text>
+        <Tags.Text>Chainable Operations</Tags.Text>
       </div>
     </Tags.Appear>
   </Tags.Slide>

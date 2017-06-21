@@ -5,13 +5,14 @@ export = (
     <Tags.Heading size={ 1 } textFont='tertiary'>
       webrx-react
     </Tags.Heading>
-    <Tags.Text>
-      monadic development for the web using
-    </Tags.Text>
-    <Tags.Text>
-      <Tags.Code bgColor='transparent'>RxJS</Tags.Code>
+    <Tags.Heading size={ 6 }>
+      Monadic Development for the Web
+    </Tags.Heading>
+    <Tags.Heading size={ 6 }>
+      { 'Using ' }
+      <Tags.Link href='https://github.com/ReactiveX/rxjs/'>RxJS</Tags.Link>
       { ' and ' }
-      <Tags.Code bgColor='transparent'>React</Tags.Code>
-    </Tags.Text>
+      <Tags.Link href='https://facebook.github.io/react/'>React</Tags.Link>
+    </Tags.Heading>
   </Tags.Slide>
 );

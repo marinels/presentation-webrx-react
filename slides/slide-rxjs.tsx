@@ -7,8 +7,8 @@ export = (
     </Tags.Heading>
     <br />
     <Tags.Text>Monads as Observables</Tags.Text>
-    <Tags.Text>Asynchronous event management</Tags.Text>
-    <Tags.Text>Large library of operations</Tags.Text>
-    <Tags.Text>Ported to many languages</Tags.Text>
+    <Tags.Text>Asynchronous Event Management</Tags.Text>
+    <Tags.Text>Large Library of Operations</Tags.Text>
+    <Tags.Text>Ported to Many Languages</Tags.Text>
   </Tags.Slide>
 );
