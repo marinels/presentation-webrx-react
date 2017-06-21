@@ -8,5 +8,6 @@ export default [
   require('./slide-monadic-programming'),
   require('./slide-rxjs'),
   require('./slide-rxjs-demo'),
+  require('./slide-wpf-rxui'),
 ];
 // tslint:enable no-var-requires

@@ -21,7 +21,7 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. What is `webrx-react` all about?
 1. Monadic Programming
 1. RxJS and the Functional Programming Patterns
-1. Inspiration from WPF and RxUI
+1. Ideas from WPF and RxUI
 1. WebRx and the Light Weight Port
 1. Observable Properties and Commands
 1. Observable Web API Stores
