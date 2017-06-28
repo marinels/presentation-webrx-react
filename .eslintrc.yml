@@ -1,26 +1,13 @@
 ---
-"extends":
-  - "formidable/configurations/es6-react"
+"parserOptions":
+  "ecmaVersion": 6
+  "sourceType": "script"
 
-"settings":
-  "import/resolver": "webpack"
+"extends":
+  - "strict"
+  - "strict/es6"
 
 "rules":
-  "quotes": [ 2, "single" ]
-  "jsx-quotes": [ 2, "prefer-single" ]
-  "indent": [2, 2, {"SwitchCase": 1}]
-  "max-len": 0
-  "no-magic-numbers": 0
-  "react/prefer-es6-class": 0
-  "react/no-multi-comp": 0
-
-"env":
-  "browser": true,
-  "node": true
-"globals":
-  "afterEach": true,
-  "describe": true,
-  "expect": true,
-  "it": true,
-  "jest": true,
-  "test": true
+  "linebreak-style": [ "error", "unix" ]
+  "quotes": [ "error", "single" ]
+  "newline-after-var": [ "error", "always" ]
