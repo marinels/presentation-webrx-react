@@ -9,5 +9,6 @@ export default [
   require('./slide-rxjs'),
   require('./slide-rxjs-demo'),
   require('./slide-wpf-rxui'),
+  require('./slide-webrx'),
 ];
 // tslint:enable no-var-requires
