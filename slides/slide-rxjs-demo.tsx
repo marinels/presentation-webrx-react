@@ -22,7 +22,7 @@ Rx.Observable
 `.trim();
 
 export = (
-  <Tags.Slide maxWidth={ 1200 }>
+  <Tags.Slide maxWidth={ 1200 } maxHeight='100%' margin={ 10 }>
     <Tags.Heading size={ 4 }>
       <Tags.Link href='https://codepen.io/patsissons/pen/YQZPEM'>RxJS Demo</Tags.Link>
     </Tags.Heading>
