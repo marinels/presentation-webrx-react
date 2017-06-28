@@ -11,5 +11,6 @@ export default [
   require('./slide-wpf-rxui'),
   require('./slide-webrx'),
   require('./slide-props-cmds'),
+  require('./slide-web-api'),
 ];
 // tslint:enable no-var-requires

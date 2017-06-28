@@ -24,7 +24,7 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. Ideas from WPF and RxUI
 1. WebRx and the Lightweight Port
 1. Observable Properties and Commands
-1. Observable Web API Stores
+1. Observable Web API
 1. Composing Observable Streams with `whenAny`
 1. React as a Monadic Rendering Engine
 1. ViewModels
