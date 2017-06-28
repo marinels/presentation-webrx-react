@@ -12,5 +12,6 @@ export default [
   require('./slide-webrx'),
   require('./slide-props-cmds'),
   require('./slide-web-api'),
+  require('./slide-web-api-demo'),
 ];
 // tslint:enable no-var-requires
