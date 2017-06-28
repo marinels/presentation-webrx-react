@@ -35,6 +35,7 @@ module.exports = {
     }, {
       test: /\.tsx?$/,
       loader: [ 'react-hot-loader', 'awesome-typescript-loader' ],
+      exclude: [ path.join(__dirname, 'examples') ],
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?sourceMap',

@@ -5,3 +5,10 @@ import * as Tags from 'spectacle';
 (<any>Tags.Slide).defaultProps.maxWidth = 1280;
 
 export { React, Tags };
+
+export function sanitize(example: string) {
+  return (example.match(/^(?!.*\/\/ IGNORE_LINE$).*/gm) || [])
+    .join(`\n`)
+    .trim()
+    .replace(/&/gm, '&amp;');
+}

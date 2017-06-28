@@ -11,6 +11,9 @@
     "typedef": [ false ],
 
     // allow pascal case (for class imports) and ban any keywords
-    "variable-name": [ true, "check-format", "allow-pascal-case", "ban-keywords" ]
+    "variable-name": [ true, "check-format", "allow-pascal-case", "ban-keywords" ],
+
+    // this will be required to import examples
+    "no-var-requires": false
   }
 }

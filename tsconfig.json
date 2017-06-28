@@ -24,5 +24,8 @@
   ],
   "include": [
     "slides/slide-*.tsx"
+  ],
+  "exclude": [
+    "examples/*"
   ]
 }
