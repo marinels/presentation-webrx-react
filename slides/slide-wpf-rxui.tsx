@@ -2,7 +2,7 @@ import { React, Tags } from './slide';
 
 export = (
   <Tags.Slide>
-    <Tags.Heading size={ 4 } textFont='tertiary'>
+    <Tags.Heading size={ 4 }>
       { 'Ideas from ' }
       <Tags.Link href='https://en.wikipedia.org/wiki/Windows_Presentation_Foundation'>WPF</Tags.Link>
       { ' and ' }

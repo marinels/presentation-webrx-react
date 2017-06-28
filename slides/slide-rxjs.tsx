@@ -2,7 +2,7 @@ import { React, Tags } from './slide';
 
 export = (
   <Tags.Slide>
-    <Tags.Heading size={ 4 } textFont='tertiary'>
+    <Tags.Heading size={ 4 }>
       RxJS
     </Tags.Heading>
     <br />
