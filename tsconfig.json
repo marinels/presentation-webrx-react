@@ -21,5 +21,11 @@
   },
   "files": [
     "index.tsx"
+  ],
+  "include": [
+    "slides/slide-*.tsx"
+  ],
+  "exclude": [
+    "examples/*"
   ]
 }

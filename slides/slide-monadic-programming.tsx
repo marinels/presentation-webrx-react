@@ -1,6 +1,6 @@
-import { React, Tags, createSlide } from './slide';
+import { React, Tags } from './slide';
 
-createSlide(
+export = (
   <Tags.Slide>
     <Tags.Heading size={ 4 }>
       What is Monadic Programming?
@@ -8,10 +8,10 @@ createSlide(
     <br />
     <Tags.Appear>
       <div>
-        <Tags.Text>State encapsulation</Tags.Text>
-        <Tags.Text>Functional mutations</Tags.Text>
-        <Tags.Text>Chainable operations</Tags.Text>
+        <Tags.Text>State Encapsulation</Tags.Text>
+        <Tags.Text>Functional Mutations</Tags.Text>
+        <Tags.Text>Chainable Operations</Tags.Text>
       </div>
     </Tags.Appear>
-  </Tags.Slide>,
+  </Tags.Slide>
 );

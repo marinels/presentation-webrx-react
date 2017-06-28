@@ -1,10 +1,17 @@
-// export slides from here in the order they should appear
-// e.g.,
-// export * from './slide-myslide';
-
-import './slide-splash';
-import './slide-who-am-i';
-import './slide-what-is-webrx-react';
-import './slide-monadic-programming';
-import './slide-rxjs';
-import './slide-rxjs-demo';
+// tslint:disable no-var-requires
+export default [
+  // import slides here in the order they should appear
+  // e.g., require('./slide-myslide'),
+  require('./slide-splash'),
+  require('./slide-who-am-i'),
+  require('./slide-what-is-webrx-react'),
+  require('./slide-monadic-programming'),
+  require('./slide-rxjs'),
+  require('./slide-rxjs-demo'),
+  require('./slide-wpf-rxui'),
+  require('./slide-webrx'),
+  require('./slide-props-cmds'),
+  require('./slide-web-api'),
+  require('./slide-web-api-demo'),
+];
+// tslint:enable no-var-requires
