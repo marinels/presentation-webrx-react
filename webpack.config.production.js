@@ -41,8 +41,8 @@ module.exports = {
         loader: 'raw-loader',
       }, {
         test: /\.tsx?$/,
-        exclude: /node_modules/,
         loader: 'awesome-typescript-loader?silent',
+        exclude: [ path.join(__dirname, 'examples') ],
       }, {
         test: /\.css$/,
         loader: 'style-loader!css-loader',
