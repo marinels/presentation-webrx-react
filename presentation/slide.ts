@@ -6,7 +6,7 @@ import * as Tags from 'spectacle';
 
 export { React, Tags };
 
-export function sanitize(example: string) {
+export function sanitizeCode(example: string) {
   return (example.match(/^(?!.*\/\/ IGNORE_LINE$).*/gm) || [])
     .join(`\n`)
     .trim()

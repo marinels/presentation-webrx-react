@@ -1,6 +1,6 @@
-import { React, Tags, sanitize } from './slide';
+import { React, Tags, sanitizeCode } from './slide';
 
-const source = sanitize(require('raw-loader!../examples/rxjs-demo.ts'));
+const source = sanitizeCode(require('raw-loader!../examples/rxjs-demo.ts'));
 
 export = (
   <Tags.Slide maxWidth={ 1200 } maxHeight='100%' margin={ 10 }>
