@@ -14,5 +14,6 @@ export default [
   require('./slide-web-api'),
   require('./slide-web-api-demo'),
   require('./slide-whenany'),
+  require('./slide-react'),
 ];
 // tslint:enable no-var-requires
