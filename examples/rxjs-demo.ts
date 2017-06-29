@@ -1,4 +1,4 @@
-declare const Rx: any; // IGNORE_LINE
+import { Rx } from './declarations'; // IGNORE_LINE
 const container = document.getElementById('container');
 const baseUri = '//baconipsum.com/api/?type=all-meat&format=html';
 Rx.Observable
