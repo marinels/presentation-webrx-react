@@ -17,5 +17,6 @@ export default [
   require('./slide-react'),
   require('./slide-react-demo'),
   require('./slide-viewmodels'),
+  require('./slide-views'),
 ];
 // tslint:enable no-var-requires
