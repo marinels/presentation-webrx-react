@@ -3,7 +3,7 @@ import { React, Tags } from './slide';
 export = (
   <Tags.Slide>
     <Tags.Heading size={ 4 }>
-      RxJS
+      <Tags.Link href='http://reactivex.io/rxjs/'>RxJS</Tags.Link>
     </Tags.Heading>
     <br />
     <Tags.Text>Monads as Observables</Tags.Text>
