@@ -18,5 +18,6 @@ export default [
   require('./slide-react-demo'),
   require('./slide-viewmodels'),
   require('./slide-views'),
+  require('./slide-webrx-react-components'),
 ];
 // tslint:enable no-var-requires
