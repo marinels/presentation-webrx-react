@@ -1,4 +1,4 @@
-declare const Observable: any; // IGNORE_LINE
+import { Observable } from './declarations'; // IGNORE_LINE
 declare class ObservableApi { constructor(s: string); getObservable<T>(...args: any[]): any; } // IGNORE_LINE
 const api = new ObservableApi('//baconipsum.com/api/?type=');
 Observable

@@ -13,5 +13,8 @@ export default [
   require('./slide-props-cmds'),
   require('./slide-web-api'),
   require('./slide-web-api-demo'),
+  require('./slide-whenany'),
+  require('./slide-react'),
+  require('./slide-react-demo'),
 ];
 // tslint:enable no-var-requires
