@@ -33,7 +33,8 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. `BindableInput` & `CommandButton`
 1. `DataGrid` and `ItemListPanel`
 1. `ModalDialog` and `ContextMenu`
-1. `RouteManager` and `RouteHandler`
+1. `RouteHandler`
+1. `RouteManager`
 1. Canonical Todo List Example
 1. Consuming the Library, Bundle vs Modules
 1. Roadmap
