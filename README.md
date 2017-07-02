@@ -30,8 +30,7 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. ViewModels
 1. Views
 1. `webrx-react` Component Library
-1. `BindableInput`
-1. `CommandButton`
+1. `BindableInput` & `CommandButton`
 1. `DataGrid` and `ItemListPanel`
 1. `RouteManager` and `RouteHandler`
 1. `PubSub`

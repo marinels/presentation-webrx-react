@@ -19,5 +19,6 @@ export default [
   require('./slide-viewmodels'),
   require('./slide-views'),
   require('./slide-webrx-react-components'),
+  require('./slide-bindableinput-commandbutton'),
 ];
 // tslint:enable no-var-requires
