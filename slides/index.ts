@@ -22,5 +22,6 @@ export default [
   require('./slide-bindableinput-commandbutton'),
   require('./slide-datagrid-itemlistpanel'),
   require('./slide-modaldialog-contextmenu'),
+  require('./slide-routehandler'),
 ];
 // tslint:enable no-var-requires

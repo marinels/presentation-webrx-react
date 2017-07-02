@@ -14,6 +14,8 @@ class AnyClass { constructor(...args: any[]) { return; } }
 
 export class DataGridViewModel extends AnyClass {}
 export class ModalDialogViewModel extends AnyClass {}
+export class RouteHandlerViewModel extends AnyClass {}
+export class DemoComponentViewModel extends AnyClass {}
 
 export class FormControl extends Component<any, any> {}
 export class Tooltip extends Component<any, any> {}
@@ -25,3 +27,5 @@ export class ItemListPanelView extends Component<any, any> {}
 export class ModalDialogView extends Component<any, any> {}
 export class ContextMenu extends Component<any, any> {}
 export class MenuItem extends Component<any, any> {}
+export class RouteHandlerView extends Component<any, any> {}
+export class DemoComponentView extends Component<any, any> {}
