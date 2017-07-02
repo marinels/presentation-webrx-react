@@ -14,7 +14,7 @@ import 'prismjs/components/prism-jsx';
 // Require CSS
 import 'normalize.css';
 import 'spectacle/lib/themes/default/index.css';
-import 'prismjs/themes/prism-tomorrow.css';
+import 'prismjs/themes/prism-okaidia.css';
 import 'font-awesome/css/font-awesome.css';
 import './style.css';
 
