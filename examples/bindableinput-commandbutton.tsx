@@ -4,15 +4,15 @@ const cmd = wx.command(x => console.log(`Executed: '${ x }'`));
 function render() {
   return (
     <div>
-        <BindableInput property={ this.state.input }>
-          <FormControl type='text' placeholder='Type Some Text In...' />
-        </BindableInput>
-        <CommandButton
-          command={ this.state.cmd }
-          commandParameter={ () => this.state.input.value }
-        >
-          <span>Execute!</span>
-        </CommandButton>
+      <BindableInput property={ this.state.input }>
+        <FormControl type='text' placeholder='Type Some Text In...' />
+      </BindableInput>
+      <CommandButton
+        command={ this.state.cmd }
+        commandParameter={ () => this.state.input.value }
+      >
+        <span>Execute!</span>
+      </CommandButton>
     </div>
   );
 }
