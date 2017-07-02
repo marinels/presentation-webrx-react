@@ -11,5 +11,9 @@ export let Observable: any;
 export let wx: WxStatic;
 
 export class FormControl extends Component<any, any> {}
+export class Tooltip extends Component<any, any> {}
 export class BindableInput extends Component<any, any> {}
 export class CommandButton extends Component<any, any> {}
+export class DataGridView extends Component<any, any> {}
+export class DataGridColumn extends Component<any, any> {}
+export class ItemListPanelView extends Component<any, any> {}

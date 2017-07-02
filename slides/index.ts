@@ -20,5 +20,6 @@ export default [
   require('./slide-views'),
   require('./slide-webrx-react-components'),
   require('./slide-bindableinput-commandbutton'),
+  require('./slide-datagrid-itemlistpanel'),
 ];
 // tslint:enable no-var-requires
