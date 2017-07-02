@@ -1,6 +1,7 @@
-import { wx, DataGridView,  DataGridColumn, ItemListPanelView, CommandButton, Tooltip } from './declarations'; // IGNORE_LINE
-const input = wx.property<string>();
-const cmd = wx.command(x => console.log(`Executed: '${ x }'`));
+import { Observable, wx, DataGridViewModel, DataGridView, DataGridColumn, ItemListPanelView, CommandButton, Tooltip } from './declarations'; // IGNORE_LINE
+const grid = new DataGridViewModel(Observable.of([
+  { id: 1, userName: 'hmar', name: 'Hank', lastName: 'Mardukas' },
+]));
 function render() {
   return (
     <div>
@@ -11,6 +12,9 @@ function render() {
         />
       </DataGridView>
       <ItemListPanelView viewModel={ this.state.grid }>
+        <DataGridColumn header='Name'
+          renderCell={ x => `${ x.firstName } ${ x.lastName }` }
+        />
         <DataGridColumn
           renderCell={ x => (<CommandButton command={ this.state.viewUser } />) }
           tooltip={ x => x == null ?

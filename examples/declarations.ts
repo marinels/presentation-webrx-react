@@ -10,6 +10,9 @@ export let Rx: any;
 export let Observable: any;
 export let wx: WxStatic;
 
+class AnyClass { constructor(...args: any[]) { return; } }
+
+export class DataGridViewModel extends AnyClass {}
 export class FormControl extends Component<any, any> {}
 export class Tooltip extends Component<any, any> {}
 export class BindableInput extends Component<any, any> {}
