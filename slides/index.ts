@@ -27,5 +27,6 @@ export default [
   require('./slide-todolist'),
   require('./slide-consuming'),
   require('./slide-roadmap'),
+  require('./slide-questions'),
 ];
 // tslint:enable no-var-requires
