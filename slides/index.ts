@@ -24,5 +24,6 @@ export default [
   require('./slide-modaldialog-contextmenu'),
   require('./slide-routehandler'),
   require('./slide-routemanager'),
+  require('./slide-todolist'),
 ];
 // tslint:enable no-var-requires
