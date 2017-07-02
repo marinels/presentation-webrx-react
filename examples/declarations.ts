@@ -1,3 +1,5 @@
+import { Component } from 'react';
+
 interface WxStatic {
   command<T>(p?: (x: any) => T): any;
   property<T>(v?: T): any;
@@ -7,3 +9,7 @@ interface WxStatic {
 export let Rx: any;
 export let Observable: any;
 export let wx: WxStatic;
+
+export class FormControl extends Component<any, any> {}
+export class BindableInput extends Component<any, any> {}
+export class CommandButton extends Component<any, any> {}
