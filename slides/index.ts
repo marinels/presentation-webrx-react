@@ -21,5 +21,6 @@ export default [
   require('./slide-webrx-react-components'),
   require('./slide-bindableinput-commandbutton'),
   require('./slide-datagrid-itemlistpanel'),
+  require('./slide-modaldialog-contextmenu'),
 ];
 // tslint:enable no-var-requires

@@ -13,6 +13,8 @@ export let wx: WxStatic;
 class AnyClass { constructor(...args: any[]) { return; } }
 
 export class DataGridViewModel extends AnyClass {}
+export class ModalDialogViewModel extends AnyClass {}
+
 export class FormControl extends Component<any, any> {}
 export class Tooltip extends Component<any, any> {}
 export class BindableInput extends Component<any, any> {}
@@ -20,3 +22,6 @@ export class CommandButton extends Component<any, any> {}
 export class DataGridView extends Component<any, any> {}
 export class DataGridColumn extends Component<any, any> {}
 export class ItemListPanelView extends Component<any, any> {}
+export class ModalDialogView extends Component<any, any> {}
+export class ContextMenu extends Component<any, any> {}
+export class MenuItem extends Component<any, any> {}
