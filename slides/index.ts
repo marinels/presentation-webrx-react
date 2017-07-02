@@ -23,5 +23,6 @@ export default [
   require('./slide-datagrid-itemlistpanel'),
   require('./slide-modaldialog-contextmenu'),
   require('./slide-routehandler'),
+  require('./slide-routemanager'),
 ];
 // tslint:enable no-var-requires
