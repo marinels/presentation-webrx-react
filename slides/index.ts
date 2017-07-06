@@ -16,5 +16,17 @@ export default [
   require('./slide-whenany'),
   require('./slide-react'),
   require('./slide-react-demo'),
+  require('./slide-viewmodels'),
+  require('./slide-views'),
+  require('./slide-webrx-react-components'),
+  require('./slide-bindableinput-commandbutton'),
+  require('./slide-datagrid-itemlistpanel'),
+  require('./slide-modaldialog-contextmenu'),
+  require('./slide-routehandler'),
+  require('./slide-routemanager'),
+  require('./slide-todolist'),
+  require('./slide-consuming'),
+  require('./slide-roadmap'),
+  require('./slide-questions'),
 ];
 // tslint:enable no-var-requires

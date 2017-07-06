@@ -1,5 +1,4 @@
 import { React, Tags, Images } from './slide';
-import { Image } from 'spectacle';
 
 function renderGitHubLink(image: any, name: string) {
   return (

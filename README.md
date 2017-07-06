@@ -30,11 +30,11 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. ViewModels
 1. Views
 1. `webrx-react` Component Library
-1. `BindableInput`
-1. `CommandButton`
+1. `BindableInput` & `CommandButton`
 1. `DataGrid` and `ItemListPanel`
-1. `RouteManager` and `RouteHandler`
-1. `PubSub`
+1. `ModalDialog` and `ContextMenu`
+1. `RouteHandler`
+1. `RouteManager`
 1. Canonical Todo List Example
 1. Consuming the Library, Bundle vs Modules
 1. Roadmap
