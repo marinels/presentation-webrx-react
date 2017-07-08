@@ -6,7 +6,7 @@ export = (
       { 'webrx-react Components' }
     </Tags.Heading>
     <br />
-    <Tags.Text>Based on Bootstrap 3 (<Tags.Code>react-bootstrap</Tags.Code>)</Tags.Text>
+    <Tags.Text>Based on <Tags.Link href='http://getbootstrap.com/'>Bootstrap 3</Tags.Link> (<Tags.Code>react-bootstrap</Tags.Code>)</Tags.Text>
     <Tags.Text>Easy to Use Component Library</Tags.Text>
     <Tags.Text><Tags.Code>BindableInput</Tags.Code> & <Tags.Code>CommandButton</Tags.Code></Tags.Text>
     <Tags.Text><Tags.Code>DataGrid</Tags.Code> & <Tags.Code>ItemListPanel</Tags.Code></Tags.Text>
