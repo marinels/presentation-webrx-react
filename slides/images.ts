@@ -4,8 +4,9 @@ import preloader from 'spectacle/lib/utils/preloader';
 const Images = {
   me: require('../assets/me.png'),
   logo: require('../assets/logo.png'),
-  todolist: undefined,  // TODO: screenshot from codepen
-  questions: undefined, // TODO: david s pumpkins
+  todolist: require('../assets/todolist.png'),
+  todolistFiltered: require('../assets/todolist-filtered.png'),
+  questions: require('../assets/questions.png'),
 };
 
 preloader(Images);
