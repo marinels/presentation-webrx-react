@@ -7,7 +7,7 @@ export = (
       { ' Rendering Engine' }
     </Tags.Heading>
     <br />
-    <Tags.Text>Readonly Attributes</Tags.Text>
+    <Tags.Text>Readonly Component Attributes</Tags.Text>
     <Tags.Text>Readonly Snapshots of Mutable State</Tags.Text>
     <Tags.Text>Declarative Templating</Tags.Text>
     <Tags.Text>Observable Results Invoke Rendering</Tags.Text>
