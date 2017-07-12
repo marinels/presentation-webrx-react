@@ -12,6 +12,19 @@ export let wx: WxStatic;
 
 class AnyClass { constructor(...args: any[]) { return; } }
 
+export class BaseViewModel extends AnyClass {
+  command<T>(...args: any[]): any { return; }
+  property(...args: any[]): any { return; }
+  whenAny(...args: any[]): any { return; }
+}
+export interface BaseViewProps {}
+export class BaseView<P, S> extends AnyClass {
+  props: any;
+  state: any;
+}
+
+export function classNames(...args: any[]): any { return; }
+
 export class DataGridViewModel extends AnyClass {}
 export class ModalDialogViewModel extends AnyClass {}
 export class RouteHandlerViewModel extends AnyClass {}

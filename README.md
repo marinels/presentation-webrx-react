@@ -29,6 +29,7 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 1. React Rendering Engine + Demo
 1. View Models
 1. Views
+1. Component Demo
 1. `webrx-react` Components
 1. `BindableInput` & `CommandButton`
 1. `DataGridView` and `ItemListPanelView`

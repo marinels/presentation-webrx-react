@@ -18,6 +18,7 @@ export default [
   require('./slide-react-demo'),
   require('./slide-viewmodels'),
   require('./slide-views'),
+  require('./slide-component-demo'),
   require('./slide-webrx-react-components'),
   require('./slide-bindableinput-commandbutton'),
   require('./slide-datagrid-itemlistpanel'),
