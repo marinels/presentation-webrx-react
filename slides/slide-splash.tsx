@@ -14,5 +14,7 @@ export = (
       { ' and ' }
       <Tags.Link href='https://facebook.github.io/react/'>React</Tags.Link>
     </Tags.Heading>
+    <br />
+    <Tags.Text textSize='18pt'>Follow Along @ <Tags.Link textFont='tertiary' href='https://git.io/vQ10Y'>https://git.io/vQ10Y</Tags.Link></Tags.Text>
   </Tags.Slide>
 );

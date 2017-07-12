@@ -12,3 +12,8 @@ export function sanitizeCode(example: string) {
     .trim()
     .replace(/&/gm, '&amp;');
 }
+
+export function notes(...lines: any[]) {
+  const plist = lines.map(x => `\n<li>${ x }</li>`);
+  return `<ul>${ plist }\n</ul>`;
+}

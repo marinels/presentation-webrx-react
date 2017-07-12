@@ -18,6 +18,7 @@ export default [
   require('./slide-react-demo'),
   require('./slide-viewmodels'),
   require('./slide-views'),
+  require('./slide-component-demo'),
   require('./slide-webrx-react-components'),
   require('./slide-bindableinput-commandbutton'),
   require('./slide-datagrid-itemlistpanel'),
@@ -26,6 +27,7 @@ export default [
   require('./slide-routemanager'),
   require('./slide-todolist'),
   require('./slide-consuming'),
+  require('./slide-why'),
   require('./slide-roadmap'),
   require('./slide-questions'),
 ];
