@@ -1,7 +1,7 @@
-import { React, Tags, Images } from './slide';
+import { React, Tags, Images, notes } from './slide';
 
 export = (
-  <Tags.Slide>
+  <Tags.Slide notes={ notes('regex search', 'list item adding', 'list item completion', 'list item removal') }>
     <Tags.Heading size={ 4 }>
       <Tags.Link href='https://marinels.github.io/webrx-react/#/demo/todolist'>Canonical Todo List</Tags.Link>
     </Tags.Heading>
