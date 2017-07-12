@@ -27,6 +27,7 @@ export default [
   require('./slide-routemanager'),
   require('./slide-todolist'),
   require('./slide-consuming'),
+  require('./slide-why'),
   require('./slide-roadmap'),
   require('./slide-questions'),
 ];
