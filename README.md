@@ -53,3 +53,14 @@ Open a browser and hit [http://localhost:3000](http://localhost:3000), and we ar
 Building the dist version of the project is as easy as running `npm run build`
 
 If you want to deploy the slideshow to `docs`, run `npm run deploy`
+
+## Printing
+
+1. Open the presentation in the chrome browser using [print mode](https://marinels.github.io/presentation-webrx-react/#/?export&)
+1. Open the print dialog (with `crtl+P`)
+    * Destination is `Save as PDF`
+    * Layout is `Landscape`
+    * Paper size is `Tabloid`
+    * Margins are `None`
+    * Scale is `100`
+    * Background graphics are `enabled`
