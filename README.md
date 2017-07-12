@@ -18,25 +18,25 @@ My name is [Pat Sissons](https://github.com/patsissons) and I am currently a sen
 
 1. Splash
 1. Who Am I?
-1. What is `webrx-react` all about?
-1. Monadic Programming
-1. RxJS and the Functional Programming Patterns
+1. `webrx-react`?
+1. What is Monadic Programming?
+1. RxJS + Demo
 1. Ideas from WPF and RxUI
-1. WebRx and the Lightweight Port
-1. Observable Properties and Commands
-1. Observable Web API
-1. Composing Observable Streams with `whenAny`
-1. React as a Monadic Rendering Engine
-1. ViewModels
+1. A Lightweight Port of `webrx`
+1. Properties and Commands
+1. Observable Web API + Demo
+1. Composing Observables with `whenAny`
+1. React Rendering Engine + Demo
+1. View Models
 1. Views
-1. `webrx-react` Component Library
+1. `webrx-react` Components
 1. `BindableInput` & `CommandButton`
-1. `DataGrid` and `ItemListPanel`
-1. `ModalDialog` and `ContextMenu`
-1. `RouteHandler`
-1. `RouteManager`
+1. `DataGridView` and `ItemListPanelView`
+1. `ModalDialogView` and `ContextMenu`
+1. `RouteHandlerView`
+1. The `RouteManager`
 1. Canonical Todo List Example
-1. Consuming the Library, Bundle vs Modules
+1. Consuming `webrx-react`
 1. Roadmap
 1. Questions?
 
