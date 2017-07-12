@@ -7,6 +7,6 @@ export = (
     <Tags.Heading size={ 4 }>
       <Tags.Text><Tags.Code>RouteHandlerView</Tags.Code></Tags.Text>
     </Tags.Heading>
-    <Tags.CodePane lang='jsx' source={ source } textSize='1.3rem' style={ ({ lineHeight: 'normal' }) } />
+    <Tags.CodePane lang='jsx' source={ source } textSize='1.2rem' style={ ({ lineHeight: 'normal' }) } />
   </Tags.Slide>
 );
