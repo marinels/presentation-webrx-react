@@ -56,6 +56,10 @@ If you want to deploy the slideshow to `docs`, run `npm run deploy`
 
 ## Printing
 
+View the current [presentation PDF](https://raw.githubusercontent.com/marinels/presentation-webrx-react/master/presentation.pdf)
+
+Or create a new PDF with the following steps:
+
 1. Open the presentation in the chrome browser using [print mode](https://marinels.github.io/presentation-webrx-react/#/?export&)
 1. Open the print dialog (with `crtl+P`)
     * Destination is `Save as PDF`
